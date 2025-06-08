@@ -15,7 +15,7 @@ public class rock_paper_scissors {
         String value = sc.next();
         if (rand.equals(value)) {
             System.out.println("computer choose: "+rand);
-            System.out.println("match draw!, try again!");
+            System.out.println("match draw!, try again! try again!");
         } else if ((rand.equals("rock") && value.equals("sijor")) || (rand.equals("sijor") && value.equals("paper")) || (rand.equals("paper") && value.equals("rock"))) {
             System.out.println("computer choose: "+rand);
             System.out.println("you lost!\n\tBetter luck next time!");
