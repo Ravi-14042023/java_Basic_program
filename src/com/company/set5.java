@@ -59,10 +59,13 @@ public class set5 {
 
         System.out.println("Enter your number here :");
         int num = sc.nextInt();
+        int value = 0;
         for (int i=(num-1); i>=1; i--){
             num = num*i;
+            value = num;
+
         }
-            System.out.println("factorial of"+num+"is :"+num);
+            System.out.println("factorial of"+num+"is :"+value);
     }
 
 }
